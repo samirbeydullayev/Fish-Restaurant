@@ -1,0 +1,287 @@
+#headPage{
+    overflow: hidden;
+    .img{
+        height: 650px;
+            width: 100%;
+            background-image: url("../Images/fish.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .content{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform:translate(-50%,-50%);
+                text-align: center;
+                animation-name: fadeInUp;
+                animation-duration: 4s;
+                overflow: hidden;
+
+              
+
+                h1{
+                    font-family: 'Playball', cursive;
+                    font-size:6.5rem;
+                    color: white;
+                    word-spacing: 0.3cm;
+                }
+                h3{
+                    color: #F48120;
+                    font-family: 'Playball', cursive;
+                    font-size: 2.1rem;
+                    letter-spacing: 0.2cm;
+                    font-weight: 600;
+                }
+                p{
+                  color: #CCCCCC;
+                  font-family: 'Playball', cursive;
+                  font-size: 2.5rem;
+                  word-spacing: 0.5cm;
+
+           
+                
+
+                }
+                button{
+                   
+                    padding: 8px 20px;
+                    background: rgba(0,0,0,0.5);
+                      font-family: 'Lato', sans-serif;
+                      word-spacing: 0.2cm;
+                      font-size:18px;
+                      font-weight: 600;
+                      position: relative;
+                      cursor: pointer;
+                      border:2px solid #F48120;
+                      color: #F48120;
+                    
+
+                      &:hover span{
+                          width: 100%;
+
+                         
+
+                      }
+                    
+                }
+            }
+           
+        
+    }
+
+}
+
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+
+        transform: translate3d(-50%,10%,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(-50%,-50%,0);
+        visibility: visible;
+
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:359px){
+
+#headPage{
+   
+    .img{
+        background-attachment:unset !important;
+        height: 500px !important;
+        .content{
+           
+            h1{
+                font-size: 2.22rem !important;
+            }
+            p{
+               font-size:  1.6rem !important;
+            }
+            button{
+                font-size: 12px;
+                padding: 8px 8px;
+            }
+       
+
+        }
+      
+
+    }
+
+}
+
+}
+
+@media only screen and (min-width:360px) and (max-width:374px){
+
+    #headPage{
+        .img{
+            height: 500px !important;
+        background-attachment:unset !important;
+            
+            .content{
+                top: 45%  !important;
+               
+                h1{
+                    font-size: 2.22rem !important;
+                }
+                p{
+                   font-size:  1.6rem !important;
+                }
+                button{
+                    font-size: 12px;
+                    padding: 8px 8px;
+                }
+           
+    
+            }
+          
+    
+        }
+    
+    }
+    
+    }
+
+
+    @media only screen and (min-width:375px) and (max-width:410px){
+
+        #headPage{
+            .img{
+                height: 500px !important;
+            background-attachment:unset !important;
+                
+                .content{
+                    top: 35% !important;
+                   
+                    h1{
+                        font-size: 2.22rem !important;
+                    }
+                    p{
+                       font-size:  1.6rem !important;
+                    }
+                    button{
+                        font-size: 12px;
+                        padding: 8px 8px;
+                    }
+               
+        
+                }
+              
+        
+            }
+        
+        }
+        
+        }
+
+
+        @media only screen and (min-width:411px) and (max-width:767px){
+
+            #headPage{
+                .img{
+                    height: 500px !important;
+                background-attachment:unset !important;
+                    
+                    .content{
+                        top: 39% !important;
+                       
+                        h1{
+                            font-size: 2.22rem !important;
+                        }
+                        p{
+                           font-size:  1.6rem !important;
+                        }
+                        button{
+                            font-size: 12px;
+                            padding: 8px 8px;
+                        }
+                   
+            
+                    }
+                  
+            
+                }
+            
+            }
+            
+            }
+
+
+            @media only screen and (min-width:768px) and (max-width:1023px){
+
+                #headPage{
+                    .img{
+                        height: 500px !important;
+                    background-attachment:unset !important;
+                        
+                        .content{
+                            top: 28% !important;
+                           
+                            h1{
+                                font-size: 4.22rem !important;
+                            }
+                            h3{
+                                font-size: 1.7rem !important;
+                            }
+                            p{
+                               font-size:  1.8rem !important;
+                            }
+                            button{
+                                font-size: 12px;
+                                padding: 8px 8px;
+                            }
+                       
+                
+                        }
+                      
+                
+                    }
+                
+                }
+                
+                }
+
+                @media only screen and (min-width:1024px) and (max-width:1300px){
+
+                    #headPage{
+                        .img{
+                            height: 500px !important;
+                        background-attachment:unset !important;
+                            
+                            .content{
+                                top: 22% !important;
+                               
+                                h1{
+                                    font-size: 5.22rem !important;
+                                }
+                                h3{
+                                    font-size: 2.3rem !important;
+                                }
+                                p{
+                                   font-size:  1.8rem !important;
+                                }
+                                button{
+                                    font-size: 12px;
+                                    padding: 8px 8px;
+                                }
+                           
+                    
+                            }
+                          
+                    
+                        }
+                    
+                    }
+                    
+                    }
+
+
+
+      

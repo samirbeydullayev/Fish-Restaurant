@@ -1,0 +1,68 @@
+#footer{
+    padding-top: 7%;
+    padding-bottom: 4%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../Images/foot.png");
+    // background-attachment: fixed;
+    background-position: center;
+background-size: cover;
+
+    .info{
+   
+            h1{
+                color: rgb(244, 129, 32);
+                font-family: 'Playball', cursive;
+                font-size: 2rem;
+            }
+            ul{
+                margin-top: 6%;
+                li{
+                    color: white;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 1rem;
+                    margin-bottom: 2%;
+                }
+            }
+            ul.menu{
+                li{
+                    transition: all 0.3s linear;
+                    &:hover{
+                        cursor: pointer;
+                        color: rgb(244, 129, 32);
+                        &:hover{
+                           transform: translate(10px);
+                        }
+                    }
+                }
+            }
+        
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+   #footer{
+       .info{
+           text-align: center;
+           h1{
+           font-size: 1.6rem !important;
+           }
+
+       }
+   }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    #footer{
+        .info{
+            h1{
+                font-size: 1.5rem !important;
+            }
+            ul{
+                li{
+                    font-size: 0.66rem !important;
+                }
+            }
+ 
+        }
+    }
+ }

@@ -1,0 +1,137 @@
+#service{
+    background-color: rgb(247, 239, 229);
+    padding-top: 7%;
+    padding-bottom: 4%;
+
+    .header{
+        text-align: center;
+        h1{
+            color: rgb(244, 129, 32);
+            font-family: 'Playball', cursive;
+            font-size: 3.5rem;
+        }
+        p{
+            color: #717171;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+    .servis{
+        .img{
+            overflow: hidden;
+            img{
+                width: 100%;
+                transition: all 0.3s ease;
+            }
+            &:hover img{
+                transform: translateX(20px);
+                transform: scale(1.2);
+                cursor: zoom-in;
+                
+            }
+        }
+        .info{
+            text-align: center;
+            h1{
+                color: rgb(244, 129, 32);
+                font-family: 'Playball', cursive;
+                font-size: 1.7rem;
+            }
+
+            p{
+                padding-right: 8%;
+                padding-left: 8%;
+                color: #717171;
+                font-family: 'Lato', sans-serif;
+                
+            }
+            button{
+                
+                padding: 8px 20px;
+                    background: #F48120;
+                      font-family: 'Lato', sans-serif;
+                      word-spacing: 0.2cm;
+                      font-size:18px;
+                      font-weight: 600;
+                      position: relative;
+                      cursor: pointer;
+                    
+                      color: white;
+                      border: none;
+                      transition: all 0.3s ease;
+                      i{
+                      transition: all 0.3s ease;
+                          
+                      }
+                      &:hover{
+                          border:1px solid #F48120;
+                          color: #F48120;
+                          background: transparent;
+                      }
+                      &:hover i{
+                          transform: translate(10px);
+                      }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+#service{
+    .col-md-6{
+        margin-top: 3% !important;
+    }
+
+    .header{
+        text-align: center;
+        h1{
+            font-size: 2.5rem !important;
+        }
+        p{
+            font-size:   0.8rem !important;
+        }
+       
+    }
+
+    .info{
+        h1{
+            font-size: 1.3rem !important;
+        }
+        p{
+         font-size: 0.8rem !important;
+        }
+    }
+
+    button{
+        font-size: 0.8rem !important;
+        padding: 6px 12px !important;
+    }
+}
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+    #service{
+       
+    
+        .header{
+            text-align: center;
+            h1{
+                font-size: 2.5rem !important;
+            }
+            p{
+                font-size:   0.8rem !important;
+            }
+           
+        }
+
+    }
+    
+    
+    }
